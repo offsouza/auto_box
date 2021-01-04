@@ -4,7 +4,7 @@ import cv2
 from object_detector import YOLO
 
 def convert(size, box):
-    dw = 1./size[0]
+    dw = 1./size[0] 
     dh = 1./size[1]
     x = (box[0] + box[1])/2.0
     y = (box[2] + box[3])/2.0
